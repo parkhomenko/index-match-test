@@ -1,3 +1,5 @@
+### Overview
+
 This application connects to a Fauna database and runs several times the following:
 1. Creates a random collection
 2. Creates an empty document in the collection
