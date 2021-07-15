@@ -20,3 +20,15 @@ Here is one of the runs examples:
 ```
 
 You can see from the above results that the same index sometimes finds a document and sometimes not.
+
+### Running the application
+The application uses fauna managed database service, you'll need to export 2 environment variables to access it:
+```
+export FAUNA_DB_HOST=https://your-fauna-db-host
+export FAUNA_SECRET_KEY=your-secret-key
+```
+
+You can then run the application using gradle command:
+```
+./gradlew run
+```

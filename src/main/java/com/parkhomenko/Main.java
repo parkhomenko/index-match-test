@@ -1,3 +1,5 @@
+package com.parkhomenko;
+
 import com.faunadb.client.FaunaClient;
 import com.faunadb.client.query.Expr;
 import com.faunadb.client.query.Language;

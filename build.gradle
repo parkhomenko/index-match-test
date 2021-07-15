@@ -1,8 +1,18 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
-group 'org.example'
+apply plugin : "java"
+ext {
+    javaMainClass = 'com.parkhomenko.Main'
+}
+
+application {
+    mainClassName = javaMainClass
+}
+
+group 'com.parkhomenko'
 version '1.0-SNAPSHOT'
 
 repositories {
